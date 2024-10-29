@@ -5,7 +5,7 @@ target = 1000
 surveyDays = 61
 
 # calculate days left in survey
-finalDay = 'November 30, 2024'
+finalDay = 'December 22, 2024'
 startDay = 'October 1, 2024'
 today = datetime.datetime.today()
 
