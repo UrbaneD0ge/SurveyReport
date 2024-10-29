@@ -1,7 +1,7 @@
 import math
 import datetime
 
-target = 500
+target = 1000
 surveyDays = 61
 
 # calculate days left in survey
