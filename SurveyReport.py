@@ -2,13 +2,14 @@ import math
 import datetime
 
 target = 1000
-surveyDays = 61
 
 # calculate days left in survey
 finalDay = 'December 22, 2024'
 startDay = 'October 1, 2024'
 today = datetime.datetime.today()
 
+# calculate how many days the survey will run
+surveyDays = datetime.datetime.strptime(finalDay, '%B %d, %Y') - datetime.datetime.strptime(startDay, '%B %d, %Y')
 
 # calculate how many days since the survey started
 startDay = datetime.datetime.strptime(startDay, '%B %d, %Y')
