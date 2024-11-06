@@ -44,4 +44,4 @@ dailyTarget = (target - int(count)) / daysLeft.days
 # round daily target up to the nearest whole number
 dailyTarget = math.ceil(dailyTarget)
 
-print("As of this time on day " + str(days) + "/" + str(surveyDays) + ", we need " + str(dailyTarget) + " responses per day to reach our goal.")
+print("As of this time on day " + str(days) + "/" + str(surveyDays.days) + ", we need " + str(dailyTarget) + " responses per day to reach our goal.")
