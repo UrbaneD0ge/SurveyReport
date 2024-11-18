@@ -40,7 +40,6 @@ print("Which is " + str(pctTarget) + "% of the responses needed to reach our tar
 # calculate the number of surveys per day needed to reach the target in the remaining days
 dailyTarget = (target - int(count)) / daysLeft.days
 
-# print("rawtarget: " + str(dailyTarget))
 # round daily target up to the nearest whole number
 dailyTarget = math.ceil(dailyTarget)
 
